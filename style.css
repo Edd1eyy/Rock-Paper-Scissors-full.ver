@@ -1,0 +1,99 @@
+body {
+  background-color: rgba(255, 140, 0, 0.904);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.start {
+  border-radius: 7px;
+  height: 80px;
+  width: 80px;
+  color: #f9faf8;
+  text-shadow: 0 0 10px black;
+  background-color: #ffee00;
+  border: solid black;
+  font-weight: 900;
+}
+.title {
+  border-radius: 7px;
+  height: 80px;
+  width: 450px;
+  color: #f9faf8;
+  text-align: center;
+  text-shadow: 0 0 10px black;
+  background-color: #ffee00;
+  border: solid black;
+}
+.restart {
+  border-radius: 7px;
+  height: 80px;
+  width: 80px;
+  color: #f9faf8;
+  text-shadow: 0 0 10px black;
+  background-color: #ffee00;
+  border: solid black;
+  font-weight: 900;
+}
+.computer-hands {
+  height: 200px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-screen {
+  height: 60;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.score-screen,
+.versus,
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 220px;
+  color: #f9faf8;
+  text-shadow: 0 0 10px black;
+  background-color: #ffffff49;
+}
+.player-side {
+  height: inherit;
+  border-right: solid black;
+  box-sizing: border-box;
+}
+.computer-side {
+  height: inherit;
+  box-sizing: border-box;
+}
+.player-side,
+.computer-side {
+  width: 110px;
+}
+.name,
+.score {
+  text-align: center;
+  margin: 0;
+}
+.player-hands {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hands img {
+  border-radius: 7px;
+  border: solid black;
+  height: 200px;
+  width: 200px;
+}
+.hidden {
+  display: none;
+}
